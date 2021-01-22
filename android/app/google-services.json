@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "623202949775",
+    "firebase_url": "https://clickloja-285719.firebaseio.com",
+    "project_id": "clickloja-285719",
+    "storage_bucket": "clickloja-285719.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623202949775:android:325de7e9774d066bf22efa",
+        "android_client_info": {
+          "package_name": "com.clickloja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623202949775-o7qekckm97boeiffudh3httjpjj8bibs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDos5MOBhP-GrhDPp8HgjaAbKSTiGSR6js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623202949775-o7qekckm97boeiffudh3httjpjj8bibs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623202949775:android:7442a2a8257ffe5bf22efa",
+        "android_client_info": {
+          "package_name": "com.rnfbdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623202949775-qvgv9e3fka3obbadm4o1mangk1l3bsq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rnfbdemo",
+            "certificate_hash": "8178e3198fdf1e5df447049097cf1a44c17d5fad"
+          }
+        },
+        {
+          "client_id": "623202949775-o7qekckm97boeiffudh3httjpjj8bibs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDos5MOBhP-GrhDPp8HgjaAbKSTiGSR6js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623202949775-o7qekckm97boeiffudh3httjpjj8bibs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

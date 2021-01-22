@@ -1,5 +1,6 @@
 apply plugin: "com.android.application"
-apply plugin: 'com.google.gms.google-services'
+apply plugin: "com.google.gms.google-services"
+
 import com.android.build.OutputFile
 
 /**
@@ -129,14 +130,26 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.clickloja"
+        applicationId "com.rnfbdemo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        missingDimensionStrategy 'react-native-camera', 'general'
-        missingDimensionStrategy 'react-native-camera', 'mlkit'
         versionCode 1
         versionName "1.0"
-        multiDexEnabled true
+    }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_UPLOAD_STORE_FILE')) {
+                storeFile file(MYAPP_UPLOAD_STORE_FILE)
+                storePassword MYAPP_UPLOAD_STORE_PASSWORD
+                keyAlias MYAPP_UPLOAD_KEY_ALIAS
+                keyPassword MYAPP_UPLOAD_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
     }
     splits {
         abi {
@@ -187,17 +200,8 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation 'androidx.multidex:multidex:2.0.1'
+
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
-    
-    implementation 'com.google.android.gms:play-services-vision:20.1.1'
-    implementation 'com.google.android.gms:play-services-vision-common:19.1.1'
-    implementation "com.google.android.gms:play-services-vision-face-contour-internal:16.0.2"
-    implementation 'com.google.android.gms:play-services-vision-image-label:18.0.5'
-    implementation 'com.google.firebase:firebase-ml-vision:24.1.0'
-    implementation 'com.google.firebase:firebase-ml-vision-face-model:20.0.2'
-    implementation 'com.google.firebase:firebase-ml-model-interpreter:22.0.4'
-    implementation 'org.tensorflow:tensorflow-lite:2.0.0'
 
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
       exclude group:'com.facebook.fbjni'

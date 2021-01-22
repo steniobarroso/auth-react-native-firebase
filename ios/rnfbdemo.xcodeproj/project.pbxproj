@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* clicklojaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* clicklojaTests.m */; };
+		00E356F31AD99517003FC87E /* rnfbdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnfbdemoTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1E7907B9570DCFE56ADF8E7E /* libPods-rnfbdemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF61B5F0BCD3D5B6A9EAC38 /* libPods-rnfbdemo-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* clicklojaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* clicklojaTests.m */; };
-		4A361F60A8CFDE87D3824BA9 /* libPods-clickloja-clicklojaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7760B90DD4750C25B611C3E /* libPods-clickloja-clicklojaTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* rnfbdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnfbdemoTests.m */; };
+		3129346CBEB0CB7263B04854 /* libPods-rnfbdemo-rnfbdemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8755840BC7C63BC87CAEC /* libPods-rnfbdemo-rnfbdemoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9792CC1F5075261D4445A9FF /* libPods-clickloja-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0D2A4DC9C78CB6AF3E1894 /* libPods-clickloja-tvOS.a */; };
-		BD1568F91F3E54DFEBD4AB53 /* libPods-clickloja-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C67C8A263FF62B12482D23 /* libPods-clickloja-tvOSTests.a */; };
-		D962ABE804D84DE117CBED38 /* libPods-clickloja.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FC0D0C43F1BEEAC5B179EE /* libPods-clickloja.a */; };
+		8CCE31BBEAB8C52EBD6024D1 /* libPods-rnfbdemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA89511A233A5B9CD4C5F45E /* libPods-rnfbdemo-tvOSTests.a */; };
+		DDDCE265397C1CDB6F95FEFA /* libPods-rnfbdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606DC6523453F7B942AA42AA /* libPods-rnfbdemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = clickloja;
+			remoteInfo = rnfbdemo;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "clickloja-tvOS";
+			remoteInfo = "rnfbdemo-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* clicklojaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clicklojaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* rnfbdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnfbdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* clicklojaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clicklojaTests.m; sourceTree = "<group>"; };
-		03D2398C1C51B17D8914F076 /* Pods-clickloja-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-clickloja-tvOSTests/Pods-clickloja-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* clickloja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clickloja.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = clickloja/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = clickloja/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = clickloja/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = clickloja/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = clickloja/main.m; sourceTree = "<group>"; };
-		1E46EE5EEE6B8E5FA52DAAED /* Pods-clickloja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja.release.xcconfig"; path = "Target Support Files/Pods-clickloja/Pods-clickloja.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* clickloja-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clickloja-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* clickloja-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "clickloja-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41C67C8A263FF62B12482D23 /* libPods-clickloja-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clickloja-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E0D2A4DC9C78CB6AF3E1894 /* libPods-clickloja-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clickloja-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = clickloja/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		884051F0F505820D6DCC6E40 /* Pods-clickloja-clicklojaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja-clicklojaTests.release.xcconfig"; path = "Target Support Files/Pods-clickloja-clicklojaTests/Pods-clickloja-clicklojaTests.release.xcconfig"; sourceTree = "<group>"; };
-		B4CE19497668F7E6B08653C0 /* Pods-clickloja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja.debug.xcconfig"; path = "Target Support Files/Pods-clickloja/Pods-clickloja.debug.xcconfig"; sourceTree = "<group>"; };
-		D1FC0D0C43F1BEEAC5B179EE /* libPods-clickloja.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clickloja.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD3998359CD2DB97985E1A40 /* Pods-clickloja-clicklojaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja-clicklojaTests.debug.xcconfig"; path = "Target Support Files/Pods-clickloja-clicklojaTests/Pods-clickloja-clicklojaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3CECE9B1356FA711ED76703 /* Pods-clickloja-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-clickloja-tvOS/Pods-clickloja-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E910A46CB1C6EAB8DC74D8C6 /* Pods-clickloja-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-clickloja-tvOSTests/Pods-clickloja-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* rnfbdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnfbdemoTests.m; sourceTree = "<group>"; };
+		0E6D7FC5619AF592171B2A63 /* Pods-rnfbdemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rnfbdemo-tvOS/Pods-rnfbdemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* rnfbdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnfbdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnfbdemo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rnfbdemo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnfbdemo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnfbdemo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnfbdemo/main.m; sourceTree = "<group>"; };
+		1EF61B5F0BCD3D5B6A9EAC38 /* libPods-rnfbdemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnfbdemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* rnfbdemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rnfbdemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* rnfbdemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rnfbdemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		606DC6523453F7B942AA42AA /* libPods-rnfbdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnfbdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnfbdemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ACB43D2AFC6EECA57DC21AD /* Pods-rnfbdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo.debug.xcconfig"; path = "Target Support Files/Pods-rnfbdemo/Pods-rnfbdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A8CFCE5720926712039A37E7 /* Pods-rnfbdemo-rnfbdemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo-rnfbdemoTests.release.xcconfig"; path = "Target Support Files/Pods-rnfbdemo-rnfbdemoTests/Pods-rnfbdemo-rnfbdemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA89511A233A5B9CD4C5F45E /* libPods-rnfbdemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnfbdemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF24A99D8842B22D445715A8 /* Pods-rnfbdemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rnfbdemo-tvOSTests/Pods-rnfbdemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C28DBC0EF95467B585800F80 /* Pods-rnfbdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo.release.xcconfig"; path = "Target Support Files/Pods-rnfbdemo/Pods-rnfbdemo.release.xcconfig"; sourceTree = "<group>"; };
+		C5B6D99C4E4159D26F299FD0 /* Pods-rnfbdemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rnfbdemo-tvOSTests/Pods-rnfbdemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E20658AAE404B886FABC5DC8 /* Pods-rnfbdemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rnfbdemo-tvOS/Pods-rnfbdemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD8755840BC7C63BC87CAEC /* libPods-rnfbdemo-rnfbdemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnfbdemo-rnfbdemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		ED3D941F45DAB035F0E44538 /* Pods-clickloja-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clickloja-tvOS.release.xcconfig"; path = "Target Support Files/Pods-clickloja-tvOS/Pods-clickloja-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		F7760B90DD4750C25B611C3E /* libPods-clickloja-clicklojaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clickloja-clicklojaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4922F87DB1D0ADBC2E91C9 /* Pods-rnfbdemo-rnfbdemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnfbdemo-rnfbdemoTests.debug.xcconfig"; path = "Target Support Files/Pods-rnfbdemo-rnfbdemoTests/Pods-rnfbdemo-rnfbdemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A361F60A8CFDE87D3824BA9 /* libPods-clickloja-clicklojaTests.a in Frameworks */,
+				3129346CBEB0CB7263B04854 /* libPods-rnfbdemo-rnfbdemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D962ABE804D84DE117CBED38 /* libPods-clickloja.a in Frameworks */,
+				DDDCE265397C1CDB6F95FEFA /* libPods-rnfbdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9792CC1F5075261D4445A9FF /* libPods-clickloja-tvOS.a in Frameworks */,
+				1E7907B9570DCFE56ADF8E7E /* libPods-rnfbdemo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1568F91F3E54DFEBD4AB53 /* libPods-clickloja-tvOSTests.a in Frameworks */,
+				8CCE31BBEAB8C52EBD6024D1 /* libPods-rnfbdemo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* clicklojaTests */ = {
+		00E356EF1AD99517003FC87E /* rnfbdemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* clicklojaTests.m */,
+				00E356F21AD99517003FC87E /* rnfbdemoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = clicklojaTests;
+			path = rnfbdemoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* clickloja */ = {
+		13B07FAE1A68108700A75B9A /* rnfbdemo */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = clickloja;
+			name = rnfbdemo;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D1FC0D0C43F1BEEAC5B179EE /* libPods-clickloja.a */,
-				F7760B90DD4750C25B611C3E /* libPods-clickloja-clicklojaTests.a */,
-				6E0D2A4DC9C78CB6AF3E1894 /* libPods-clickloja-tvOS.a */,
-				41C67C8A263FF62B12482D23 /* libPods-clickloja-tvOSTests.a */,
+				606DC6523453F7B942AA42AA /* libPods-rnfbdemo.a */,
+				ECD8755840BC7C63BC87CAEC /* libPods-rnfbdemo-rnfbdemoTests.a */,
+				1EF61B5F0BCD3D5B6A9EAC38 /* libPods-rnfbdemo-tvOS.a */,
+				AA89511A233A5B9CD4C5F45E /* libPods-rnfbdemo-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7856EF69A3078A71D3BB405B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ACB43D2AFC6EECA57DC21AD /* Pods-rnfbdemo.debug.xcconfig */,
+				C28DBC0EF95467B585800F80 /* Pods-rnfbdemo.release.xcconfig */,
+				FB4922F87DB1D0ADBC2E91C9 /* Pods-rnfbdemo-rnfbdemoTests.debug.xcconfig */,
+				A8CFCE5720926712039A37E7 /* Pods-rnfbdemo-rnfbdemoTests.release.xcconfig */,
+				E20658AAE404B886FABC5DC8 /* Pods-rnfbdemo-tvOS.debug.xcconfig */,
+				0E6D7FC5619AF592171B2A63 /* Pods-rnfbdemo-tvOS.release.xcconfig */,
+				C5B6D99C4E4159D26F299FD0 /* Pods-rnfbdemo-tvOSTests.debug.xcconfig */,
+				BF24A99D8842B22D445715A8 /* Pods-rnfbdemo-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -159,12 +175,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* clickloja */,
+				13B07FAE1A68108700A75B9A /* rnfbdemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* clicklojaTests */,
+				00E356EF1AD99517003FC87E /* rnfbdemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E070A31493EF2C9A19B63849 /* Pods */,
+				7856EF69A3078A71D3BB405B /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -174,79 +190,63 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* clickloja.app */,
-				00E356EE1AD99517003FC87E /* clicklojaTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* clickloja-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* clickloja-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* rnfbdemo.app */,
+				00E356EE1AD99517003FC87E /* rnfbdemoTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* rnfbdemo-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* rnfbdemo-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E070A31493EF2C9A19B63849 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B4CE19497668F7E6B08653C0 /* Pods-clickloja.debug.xcconfig */,
-				1E46EE5EEE6B8E5FA52DAAED /* Pods-clickloja.release.xcconfig */,
-				DD3998359CD2DB97985E1A40 /* Pods-clickloja-clicklojaTests.debug.xcconfig */,
-				884051F0F505820D6DCC6E40 /* Pods-clickloja-clicklojaTests.release.xcconfig */,
-				E3CECE9B1356FA711ED76703 /* Pods-clickloja-tvOS.debug.xcconfig */,
-				ED3D941F45DAB035F0E44538 /* Pods-clickloja-tvOS.release.xcconfig */,
-				03D2398C1C51B17D8914F076 /* Pods-clickloja-tvOSTests.debug.xcconfig */,
-				E910A46CB1C6EAB8DC74D8C6 /* Pods-clickloja-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* clicklojaTests */ = {
+		00E356ED1AD99517003FC87E /* rnfbdemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "clicklojaTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnfbdemoTests" */;
 			buildPhases = (
-				0DF6DD5374BE110151EE8E71 /* [CP] Check Pods Manifest.lock */,
+				A7DFF853C2EF12CBBEBFC5BD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C118B7B76B64C9C6BE13E065 /* [CP] Copy Pods Resources */,
+				10D2DF17E6E19EDD82540F7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = clicklojaTests;
-			productName = clicklojaTests;
-			productReference = 00E356EE1AD99517003FC87E /* clicklojaTests.xctest */;
+			name = rnfbdemoTests;
+			productName = rnfbdemoTests;
+			productReference = 00E356EE1AD99517003FC87E /* rnfbdemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* clickloja */ = {
+		13B07F861A680F5B00A75B9A /* rnfbdemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "clickloja" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnfbdemo" */;
 			buildPhases = (
-				50A8C91A45EF3A5B3A3B335B /* [CP] Check Pods Manifest.lock */,
+				A14B8E881F5CAB0649F6D30C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				9A2FC45FFBB55E5D28811DFF /* [CP] Copy Pods Resources */,
+				F9EAE149E5C17A46ECA4438A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = clickloja;
-			productName = clickloja;
-			productReference = 13B07F961A680F5B00A75B9A /* clickloja.app */;
+			name = rnfbdemo;
+			productName = rnfbdemo;
+			productReference = 13B07F961A680F5B00A75B9A /* rnfbdemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* clickloja-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* rnfbdemo-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "clickloja-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnfbdemo-tvOS" */;
 			buildPhases = (
-				D431F215FE617FF85BC03233 /* [CP] Check Pods Manifest.lock */,
+				3398416D9E398D55551B0378 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -257,16 +257,16 @@
 			);
 			dependencies = (
 			);
-			name = "clickloja-tvOS";
-			productName = "clickloja-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* clickloja-tvOS.app */;
+			name = "rnfbdemo-tvOS";
+			productName = "rnfbdemo-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* rnfbdemo-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* clickloja-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* rnfbdemo-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "clickloja-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnfbdemo-tvOSTests" */;
 			buildPhases = (
-				656B74AD50454384D0E044FD /* [CP] Check Pods Manifest.lock */,
+				F4833F10784FFE965B573767 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "clickloja-tvOSTests";
-			productName = "clickloja-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* clickloja-tvOSTests.xctest */;
+			name = "rnfbdemo-tvOSTests";
+			productName = "rnfbdemo-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* rnfbdemo-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "clickloja" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnfbdemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* clickloja */,
-				00E356ED1AD99517003FC87E /* clicklojaTests */,
-				2D02E47A1E0B4A5D006451C7 /* clickloja-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* clickloja-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* rnfbdemo */,
+				00E356ED1AD99517003FC87E /* rnfbdemoTests */,
+				2D02E47A1E0B4A5D006451C7 /* rnfbdemo-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* rnfbdemo-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,26 +377,22 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0DF6DD5374BE110151EE8E71 /* [CP] Check Pods Manifest.lock */ = {
+		10D2DF17E6E19EDD82540F7C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-rnfbdemo-rnfbdemoTests/Pods-rnfbdemo-rnfbdemoTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clickloja-clicklojaTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnfbdemo-rnfbdemoTests/Pods-rnfbdemo-rnfbdemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -413,7 +409,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		50A8C91A45EF3A5B3A3B335B /* [CP] Check Pods Manifest.lock */ = {
+		3398416D9E398D55551B0378 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,14 +424,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clickloja-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rnfbdemo-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		656B74AD50454384D0E044FD /* [CP] Check Pods Manifest.lock */ = {
+		A14B8E881F5CAB0649F6D30C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,20 +446,64 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clickloja-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-rnfbdemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9A2FC45FFBB55E5D28811DFF /* [CP] Copy Pods Resources */ = {
+		A7DFF853C2EF12CBBEBFC5BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rnfbdemo-rnfbdemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4833F10784FFE965B573767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rnfbdemo-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EAE149E5C17A46ECA4438A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-clickloja/Pods-clickloja-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-rnfbdemo/Pods-rnfbdemo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -472,47 +512,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clickloja/Pods-clickloja-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C118B7B76B64C9C6BE13E065 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-clickloja-clicklojaTests/Pods-clickloja-clicklojaTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clickloja-clicklojaTests/Pods-clickloja-clicklojaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D431F215FE617FF85BC03233 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-clickloja-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnfbdemo/Pods-rnfbdemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* clicklojaTests.m in Sources */,
+				00E356F31AD99517003FC87E /* rnfbdemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* clicklojaTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* rnfbdemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* clickloja */;
+			target = 13B07F861A680F5B00A75B9A /* rnfbdemo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* clickloja-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* rnfbdemo-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD3998359CD2DB97985E1A40 /* Pods-clickloja-clicklojaTests.debug.xcconfig */;
+			baseConfigurationReference = FB4922F87DB1D0ADBC2E91C9 /* Pods-rnfbdemo-rnfbdemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = clicklojaTests/Info.plist;
+				INFOPLIST_FILE = rnfbdemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickloja.app/clickloja";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnfbdemo.app/rnfbdemo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 884051F0F505820D6DCC6E40 /* Pods-clickloja-clicklojaTests.release.xcconfig */;
+			baseConfigurationReference = A8CFCE5720926712039A37E7 /* Pods-rnfbdemo-rnfbdemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = clicklojaTests/Info.plist;
+				INFOPLIST_FILE = rnfbdemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickloja.app/clickloja";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnfbdemo.app/rnfbdemo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4CE19497668F7E6B08653C0 /* Pods-clickloja.debug.xcconfig */;
+			baseConfigurationReference = 9ACB43D2AFC6EECA57DC21AD /* Pods-rnfbdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = clickloja/Info.plist;
+				INFOPLIST_FILE = rnfbdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = clickloja;
+				PRODUCT_NAME = rnfbdemo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E46EE5EEE6B8E5FA52DAAED /* Pods-clickloja.release.xcconfig */;
+			baseConfigurationReference = C28DBC0EF95467B585800F80 /* Pods-rnfbdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = clickloja/Info.plist;
+				INFOPLIST_FILE = rnfbdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = clickloja;
+				PRODUCT_NAME = rnfbdemo;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3CECE9B1356FA711ED76703 /* Pods-clickloja-tvOS.debug.xcconfig */;
+			baseConfigurationReference = E20658AAE404B886FABC5DC8 /* Pods-rnfbdemo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "clickloja-tvOS/Info.plist";
+				INFOPLIST_FILE = "rnfbdemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.clickloja-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnfbdemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED3D941F45DAB035F0E44538 /* Pods-clickloja-tvOS.release.xcconfig */;
+			baseConfigurationReference = 0E6D7FC5619AF592171B2A63 /* Pods-rnfbdemo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "clickloja-tvOS/Info.plist";
+				INFOPLIST_FILE = "rnfbdemo-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.clickloja-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnfbdemo-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03D2398C1C51B17D8914F076 /* Pods-clickloja-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = C5B6D99C4E4159D26F299FD0 /* Pods-rnfbdemo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "clickloja-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "rnfbdemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.clickloja-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnfbdemo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickloja-tvOS.app/clickloja-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnfbdemo-tvOS.app/rnfbdemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E910A46CB1C6EAB8DC74D8C6 /* Pods-clickloja-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = BF24A99D8842B22D445715A8 /* Pods-rnfbdemo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "clickloja-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "rnfbdemo-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.clickloja-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.rnfbdemo-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clickloja-tvOS.app/clickloja-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnfbdemo-tvOS.app/rnfbdemo-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "clicklojaTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnfbdemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "clickloja" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnfbdemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "clickloja-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnfbdemo-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "clickloja-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "rnfbdemo-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "clickloja" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rnfbdemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

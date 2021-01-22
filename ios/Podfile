@@ -3,12 +3,13 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'clickloja' do
+target 'rnfbdemo' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'clicklojaTests' do
+  $FirebaseSDKVersion = '7.1.0'
+  target 'rnfbdemoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +24,10 @@ target 'clickloja' do
   end
 end
 
-target 'clickloja-tvOS' do
-  # Pods for clickloja-tvOS
+target 'rnfbdemo-tvOS' do
+  # Pods for rnfbdemo-tvOS
 
-  target 'clickloja-tvOSTests' do
+  target 'rnfbdemo-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

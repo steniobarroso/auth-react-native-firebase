@@ -1,1 +1,0 @@
-# auth-react-native-firebase
